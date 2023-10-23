@@ -10,7 +10,8 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  padding: 16px 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {
@@ -36,13 +37,6 @@
 .header-menu a:hover:after {
   width: 100%;
   transition: 0.4s;
-}
-
-.container {
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  box-sizing: border-box;
 }
 
 @media (max-width: 800px) {
